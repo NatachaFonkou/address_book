@@ -1,0 +1,39 @@
+#header {
+  /* width: 100vw ; */
+  height: 10vh;
+  padding: 1rem;
+  /* position: fixed; */
+}
+
+.header_title {
+  color: #000;
+  font-family: Jua;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.fa-filter {
+  color: #555555;
+  width: 22px;
+  height: 22px;
+}
+.filter_icon {
+  border-radius: 5px;
+  background: rgba(217, 217, 217, 0.58);
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.13);
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+}
+.filter_icon i {
+  padding-top: 0.7rem;
+}
+.add_contact {
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  background: #55c875;
+  padding-top: 0.5rem;
+}

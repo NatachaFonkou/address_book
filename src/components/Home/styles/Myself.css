@@ -1,0 +1,54 @@
+.myself {
+  border-right: 3px solid rgba(154, 154, 154, 0.09);
+  padding: 0;
+  margin: 0;
+  padding: 2.2rem;
+}
+
+
+.name {
+  color: #000;
+  font-family: Jua;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+
+.username {
+  color: #000;
+  font-family: Jua;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.email {
+  color: #7c7c7c;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.profile-details {
+  margin-top: 3rem;
+}
+.birth,
+.phone,
+.user {
+  color: #7c7c7c;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+}
+.deconnexion{
+  position: relative;
+  bottom: 0;
+  left: 0;
+}

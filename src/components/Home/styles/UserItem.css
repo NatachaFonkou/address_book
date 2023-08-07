@@ -1,0 +1,46 @@
+#user_item {
+  display: flex;
+  padding: 0 2rem;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+  border-radius: 9px;
+  /* border: 0.5px solid #d6d6d6; */
+  margin-bottom: 2rem;
+}
+#user_item:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box {
+  width: 12rem;
+  text-align: justify;
+}
+.box:first-child {
+  width: auto;
+}
+.name {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.job {
+  color: #636363;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* Supprimez la marge droite pour le dernier div */
+.box:last-child {
+  margin-right: 0;
+}
+img {
+  width: 70px;
+  height: 77.143px;
+  /* flex-shrink: 0; */
+}
